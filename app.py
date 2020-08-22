@@ -20,8 +20,8 @@ from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-# MODEL_PATH = 'models/model_resnet.h5'
-MODEL_PATH = '/home/sudarsan/AI_ML_DL/deploy-heroku/deploy-heroku/models/model_resnet.h5'
+MODEL_PATH = 'models/model_resnet.h5'
+#MODEL_PATH = '/home/sudarsan/AI_ML_DL/deploy-heroku/deploy-heroku/models/model_resnet.h5'
 print(" MODEL_PATH :", MODEL_PATH)
 
 
