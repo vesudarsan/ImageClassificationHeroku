@@ -62,11 +62,11 @@ def upload():
         # Load your trained model
         model = load_model(MODEL_PATH)
         print("*** Model Loaded ***")
-        model._make_predict_function()
+        #model._make_predict_function()
 
         # Make prediction
         preds = model_predict(file_path, model)
-        print('*** preds ***')
+        #print('*** preds ***')
 
         # Process your result for human
         # pred_class = preds.argmax(axis=-1)            # Simple argmax
